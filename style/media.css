@@ -1,0 +1,44 @@
+@media (max-width: 767px) {
+    section:nth-of-type(1) > .container-fluid > .container > p {
+        font-size: 15px;
+    }
+    .area-block {
+        width: 100%;
+    }
+    .footer > button{
+        width: 100%;
+    }
+    
+}
+@media (max-width: 414px) {
+    .main-fu > .container > h3 {
+        font-size: 15px;
+    }
+    section:nth-of-type(1) > .container-fluid > .container > div > h1 {
+        font-size: 40px;
+    }
+    section:nth-of-type(1) > .container-fluid > .container > div > h1 > span {
+        font-size: 40px;
+    }
+    section:nth-of-type(1) > .container-fluid > .container > p {
+        font-size: 13px;
+    }
+    section:nth-of-type(2) > .container > h2 {
+        font-size: 50px;
+    }
+    section:nth-of-type(2) > .container > p {
+        font-size: 15px;
+    }
+    .info {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .info > button {
+        width: 75%;
+        margin: auto;
+        margin-top: 15px;
+    }
+}

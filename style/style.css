@@ -1,0 +1,208 @@
+* {
+    /* outline: 1px solid red; */
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+header > .container > nav > div > ul > li > a {
+    font-size: 14px;
+    color: #444444;
+    font-family: 'Lato-Regular';
+    transition: .2s;
+    margin-right: 30px;
+}
+header > .container > nav > div > ul > li > a:hover {
+    background: #1bbc9b;
+    color: white;
+}
+
+/* -------------------------------------------------- */
+
+section:nth-of-type(1) > .container-fluid {
+    height: 500px;
+    background: url(../images/header/body.jpg) 100%  100% no-repeat;
+    background-size: cover;
+}
+section:nth-of-type(1) > div > div > div > h1 {
+    margin-top: 90px;
+    color: #ffffff;
+    font-size: 55px;
+    font-family: 'Lato-Light';
+    text-transform: capitalize;
+    margin-bottom: 44px;
+}
+section:nth-of-type(1) > div > div > div > h1 > span {
+    color: #ffffff;
+    font-size: 55px;
+    font-family: 'Lato-Bold';
+}
+section:nth-of-type(1) > div > div > p {
+    color: #ffffffa8;
+    font-family: 'Lato-Light';
+    margin-bottom: 50px;
+}
+section:nth-of-type(1) > div > div > div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+section:nth-of-type(1) > div > div > div:nth-of-type(2) > button {
+    background: #1bbc9b;
+    color: #ffffff;
+    margin-bottom: 45px;
+    padding: 13px 15px;
+    border-radius: 0;
+    font-family: 'Lato-Bold';
+    font-size: 13px;
+}
+
+/* ---------------------------------------- */
+section:nth-of-type(2) > .container > h2 {
+    font-family: 'Lato-Regular';
+    font-size: 28px;
+    color: #444444;
+}
+section:nth-of-type(2) > .container > p {
+    font-family: 'Lato-Regular';
+    font-size: 16px;
+    color: #444444;
+}
+section:nth-of-type(2) > .container > div:nth-of-type(2) > div > div {
+    margin-bottom: 35px;
+}
+.pading {
+    margin-bottom: 60px;
+}
+.block-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 45px;
+}
+.btn-view {
+    background: #1bbc9b;
+    color: #ffffff;
+    margin-right: 25px;
+    font-family: 'Lato-Bold';
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.btn-view:hover {
+    background: #087761;
+}
+
+/* ----------------------------section3------------------------------- */
+.about-us-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.img {
+    display: flex;
+}
+.about-us-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    width: 220px;
+    margin-bottom: 70px;
+}
+.about-us-text > h3 {
+    color: #444444;
+    font-family: 'Lato-Regular';
+    font-size: 18px;
+}
+.about-us-text > p:nth-of-type(1) {
+    font-family: 'Lato-Italic';
+    font-size: 14px;
+    color: #444444;
+}
+.about-us-text > p:nth-of-type(2) {
+    font-size: 14px;
+    color: #444444;
+    font-family: 'Lato-Regular';
+}
+section:nth-of-type(3) {
+    background: #16a086;
+}
+section:nth-of-type(3) > .container > h3 {
+    font-family: 'Lato-Regular';
+    font-size: 28px;
+    color: #ffffff;
+}
+section:nth-of-type(3) > .container > p {
+    font-family: 'Lato-Regular';
+    font-size: 14px;
+    color: #ffffffb7;
+}
+
+/* ----------------------------footer-------------------------- */
+footer {
+    background: #ecf0f1;
+}
+.contact-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact-block input{
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #16a086;
+    padding: 18px;
+    outline: none;
+}
+
+.contact-block-main {
+    margin-top: 50px;
+    display: flex;
+    margin-bottom: 60px;
+}
+.footer {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.btn-footer {
+    width: 47.5%;
+    background: #16a086;
+    color: #ffffff;
+    font-size: 21px;
+    margin-left: 30px;
+    font-family: 'Lato-Bold';
+}
+.btn-footer:hover {
+    background: #056453;
+}
+.text-area {
+    border: 1px solid #16a086;
+}
+footer > .container > h3 {
+    font-size: 28px;
+    font-family: 'Lato-Regular';
+    color: #444444;
+}
+footer > .container > p {
+    font-size: 14px;
+    font-family: 'Lato-Regular';
+    color: #444444ad;
+}
+.main-fu {
+    background: #2d3e50;
+    height: 87px;
+    display: flex;
+    align-items: center;
+}
+.main-fu > .container > h3 {
+    font-family: 'Lato-Regular';
+}
